@@ -1,8 +1,7 @@
-# hair-price-calculator
-An Experimantal project built using my knowledge of C# and a little bit of AI help 😭 
-# Hair Price Calculator – The Lace Artist UK
+An experimental project built using my knowledge of C# and a little bit of AI help 😭 
 
-This is a **mobile-responsive price calculator** built for The Lace Artist UK hair business.  
+# Hair Price Calculator – The Lace Artist UK
+A **mobile-responsive price calculator** built for my small business.  
 It helps clients calculate the total price of their wig order based on:
 
 - Wig length  
