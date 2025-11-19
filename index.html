@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Lace Artist UK – Price Calculator</title>
+
+    <!-- Brand Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+
+        <!-- Logo -->
+        <img src="logo.png" alt="The Lace Artist UK Logo" class="logo">
+
+        <h1>TheLaceArtistUK – Price Calculator</h1>
+
+        <label>Wig Length (inches):</label>
+        <select id="length">
+            <option value="150">14" (£150)</option>
+            <option value="178">16" (£178)</option>
+            <option value="200">18" (£200)</option>
+            <option value="231">20" (£231)</option>
+            <option value="261">22" (£261)</option>
+            <option value="294">24" (£294)</option>
+            <option value="320">26" (£320)</option>
+            <option value="345">28" (£345)</option>
+            <option value="371">30" (£371)</option>
+        </select>
+
+        <label>Lace Size:</label>
+        <select id="density">
+            <option value="0">6x6closure (included)</option>
+            <option value="10">13x4frontal (+£10)</option>
+            <option value="20">13x6frontal (+£20)</option>
+        </select>
+
+        <label>Customisation Options:</label>
+        <div class="options">
+            <label><input type="checkbox" value="25"> Customisation (+£15)</label>
+            <label><input type="checkbox" value="30"> Custom Colour (+£40)</label>
+            <label><input type="checkbox" value="20"> Other Texture (+£10)</label>
+        </div>
+
+        <button onclick="calculate()">Calculate Price</button>
+
+        <h2 id="result">Total: £0</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

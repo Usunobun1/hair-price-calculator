@@ -1,0 +1,126 @@
+body {
+    background: #F3E6CC;
+    font-family: 'Cormorant Garamond', serif;
+    color: #503B2D;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 450px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(59, 57, 57, 0.25);
+    border: 2px solid #3B3939;
+    animation: fadeIn 0.7s ease-out;
+}
+
+/* Logo */
+.logo {
+    display: block;
+    width: 140px;
+    margin: 0 auto 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Select boxes */
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #3B3939;
+    background: #F3E6CC;
+    color: #503B2D;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+/* Checkbox options */
+.options label {
+    display: block;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* ===== BUTTON ===== */
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    background: #503B2D;
+    color: #F3E6CC;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+/* Hover animation */
+button:hover {
+    background: #3B3939;
+    transform: scale(1.03);
+}
+
+/* ===== RESULT ===== */
+#result {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: 600;
+    animation: fadeIn 1.2s ease-out;
+}
+
+/* ===== MOBILE RESPONSIVENESS ===== */
+@media (max-width: 480px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    select, button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #result {
+        font-size: 24px;
+    }
+
+    .logo {
+        width: 110px;
+    }
+}
