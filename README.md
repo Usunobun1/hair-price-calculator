@@ -28,6 +28,6 @@ It helps clients calculate the total price of their wig order based on:
 - `logo.png` – company logo
 
 ### Live Demo
-[Click here to try it](https://YOURUSERNAME.github.io/hair-price-calculator/)
+[[Click here to try it](https://usunobun1.github.io/hair-price-calculator/)
 
 ---
